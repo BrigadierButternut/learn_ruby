@@ -16,6 +16,7 @@ require 'book'
 
 describe Book do
 
+  #the "before" hook indicates that the code in the following block should be run before examples
   before do
     @book = Book.new
   end
